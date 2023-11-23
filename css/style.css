@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 60%;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navigation__item, .section, .aside__item, .aside__img, .block__1, .block__2, .header__headline{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    width: 100%;
+    height: 40px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__headline{
+    width: 20%;
+    height: 60%;
+    background: lightyellow;
+}
+
+.nav{
+    width: 100%;
+    height: 30px;
+    background: #a2c3c8;
+    display: flex;
+    justify-content: end;
+    padding-right: 5px;
+}
+.nav__navigation{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation__item{
+    width: 21%;
+    height: 60%;
+    background: #ffe596;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    width: 59%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background: #fcdb5e;
+    padding-top: 20px;
+}
+.section{
+    width: 48%;
+    height: 80%;
+    background: #f9ca9c;
+}
+
+.aside{
+    width: 40%;
+    height: 100%;
+    background: #d1e0e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.aside__item{
+    width: 80%;
+    height: 7%;
+    background: #fdc998;
+}
+.aside__img{
+    width: 80%;
+    height: 20%;
+    background: #ffe59a;
+}
+
+.container__2{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.block__1, .block__2{
+    background: #a2c3c8;
+}
+.block__1{
+    width: 29%;
+}
+.block__2{
+    width: 40.2%;
+}
+
+.footer{
+    width: 100%;
+    height: 40px;
+    background: #ffe59a;    
+}
